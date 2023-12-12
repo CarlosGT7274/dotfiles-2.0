@@ -1,1 +1,2 @@
-'https://drive.google.com/u/0/uc?id=1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od&export=download&confirm=t&uuid=5b4d81c5-67bf-477f-8d42-3b0a7b748b8e&at=AB6BwCCF3hEJIi7y3oAwwAwLYatb:1702398409474'
+gdown --id 1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od -O fonts.zip
+
