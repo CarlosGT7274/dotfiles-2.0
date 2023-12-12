@@ -269,7 +269,7 @@ sudo fc-cache -f -v
     }
 fi
 
-yay -S bluez bluez-utilz kitty 
+yay -S bluez bluez-utils kitty linux-zen-headers 
 
 chad(){
   local text="${1:?}"
