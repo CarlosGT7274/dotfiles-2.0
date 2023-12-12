@@ -69,16 +69,6 @@ calaca_chida() {
   printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" "${CRE}" "${CNC}"  
 }
 
-gdown --id 1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od -O fonts.zip
-
-unzip ./fonts.zip
-
-cd fonts ||  exit
-
-sudo cp * /usr/share/fonts
-
-# Actualizar la caché de fuentes
-sudo fc-cache -f -v
 
 echo "export _JAVA_AWT_WM_NONREPARENTING=1" | sudo tee -a /etc/profile
 echo "export PATH=\$PATH:\$HOME/.local/bin" | sudo tee -a /etc/profile
@@ -231,6 +221,18 @@ saulgoodman(){
     }
   fi
 
+gdown --id 1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od -O fonts.zip
+
+unzip ./fonts.zip
+
+cd fonts ||  exit
+
+sudo cp * /usr/share/fonts
+
+# Actualizar la caché de fuentes
+sudo fc-cache -f -v
+
+
 # Intalling tdrop for scratchpads
 	if command -v tdrop >/dev/null 2>&1; then
 		printf "\n%s%sTdrop is already installed%s\n" "${BLD}" "${CGR}" "${CNC}"
@@ -267,7 +269,7 @@ saulgoodman(){
     }
 fi
 
-yay -S bluez bluez-utilz kitty 
+yay -S bluez bluez-utils kitty linux-zen-headers 
 
 chad(){
   local text="${1:?}"
