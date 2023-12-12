@@ -157,6 +157,8 @@ for binarios in ./local/*; do
   sleep 1
 done
 
+mv ~/.config/kitty2 ~/.config/kitty
+
 saulgoodman(){
   local text="${1:?}"
   echo -e  "

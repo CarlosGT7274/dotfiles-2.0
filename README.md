@@ -43,7 +43,7 @@ este es un script automatizado para su instalación.
 
 ## Descargar las Fuentes
 
-Puedes descargar las fuentes que estoy utilizando desde el siguiente enlace: [Google Drive](<link>)
+Puedes descargar las fuentes que estoy utilizando desde el siguiente enlace: [Google Drive](https://drive.google.com/file/d/1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od/view?usp=sharing)
 
 ## Captura de Pantalla
 
@@ -51,4 +51,4 @@ Aquí tienes una vista previa de cómo se ve mi configuración:
 
 ![Captura de Pantalla](/desk.png)
 
-si no te gusta o quieres que te ayude  hablame por discord: (<link>)
+si no te gusta o quieres que te ayude  hablame por discord: [lanegritaparker](<link>)
