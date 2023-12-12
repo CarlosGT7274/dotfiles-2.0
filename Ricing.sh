@@ -69,16 +69,6 @@ calaca_chida() {
   printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" "${CRE}" "${CNC}"  
 }
 
-gdown --id 1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od -O fonts.zip
-
-unzip ./fonts.zip
-
-cd fonts ||  exit
-
-sudo cp * /usr/share/fonts
-
-# Actualizar la caché de fuentes
-sudo fc-cache -f -v
 
 echo "export _JAVA_AWT_WM_NONREPARENTING=1" | sudo tee -a /etc/profile
 echo "export PATH=\$PATH:\$HOME/.local/bin" | sudo tee -a /etc/profile
@@ -230,6 +220,18 @@ saulgoodman(){
       printf "\n%s%sFailed to install yay. al rato lo instalas%s\n" "${BLD}" "${CRE}" "${CNC}" 
     }
   fi
+
+gdown --id 1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od -O fonts.zip
+
+unzip ./fonts.zip
+
+cd fonts ||  exit
+
+sudo cp * /usr/share/fonts
+
+# Actualizar la caché de fuentes
+sudo fc-cache -f -v
+
 
 # Intalling tdrop for scratchpads
 	if command -v tdrop >/dev/null 2>&1; then
