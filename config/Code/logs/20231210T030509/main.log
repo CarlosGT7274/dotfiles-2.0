@@ -1,0 +1,38 @@
+2023-12-10 03:05:09.609 [info] update#setState idle
+2023-12-10 03:05:39.612 [info] update#setState checking for updates
+2023-12-10 03:05:39.712 [info] update#setState idle
+2023-12-10 04:05:39.615 [info] update#setState checking for updates
+2023-12-10 04:05:39.976 [info] update#setState idle
+2023-12-10 05:05:39.618 [info] update#setState checking for updates
+2023-12-10 05:05:40.023 [info] update#setState idle
+2023-12-10 06:05:39.620 [info] update#setState checking for updates
+2023-12-10 06:05:39.864 [info] update#setState idle
+2023-12-10 07:05:39.622 [info] update#setState checking for updates
+2023-12-10 07:05:40.100 [info] update#setState idle
+2023-12-10 08:05:39.624 [info] update#setState checking for updates
+2023-12-10 08:05:39.909 [info] update#setState idle
+2023-12-10 09:05:39.627 [info] update#setState checking for updates
+2023-12-10 09:05:39.869 [info] update#setState idle
+2023-12-10 10:05:39.629 [info] update#setState checking for updates
+2023-12-10 10:05:39.864 [info] update#setState idle
+2023-12-10 11:05:39.631 [info] update#setState checking for updates
+2023-12-10 11:05:40.034 [info] update#setState idle
+2023-12-10 12:05:39.634 [info] update#setState checking for updates
+2023-12-10 12:05:39.995 [info] update#setState idle
+2023-12-10 13:05:39.636 [info] update#setState checking for updates
+2023-12-10 13:05:40.019 [info] update#setState idle
+2023-12-10 13:11:00.416 [info] Extension host with pid 769186 exited with code: 0, signal: unknown.
+2023-12-10 14:05:39.638 [info] update#setState checking for updates
+2023-12-10 14:05:40.029 [info] update#setState idle
+2023-12-10 15:05:39.639 [info] update#setState checking for updates
+2023-12-10 15:05:40.025 [info] update#setState idle
+2023-12-10 16:05:39.640 [info] update#setState checking for updates
+2023-12-10 16:05:40.051 [info] update#setState idle
+2023-12-10 17:05:39.641 [info] update#setState checking for updates
+2023-12-10 17:05:40.021 [info] update#setState idle
+2023-12-10 18:05:39.642 [info] update#setState checking for updates
+2023-12-10 18:05:40.070 [info] update#setState idle
+2023-12-10 19:05:39.643 [info] update#setState checking for updates
+2023-12-10 19:05:40.099 [info] update#setState idle
+2023-12-10 19:20:45.770 [error] ptyHost terminated unexpectedly with code 15
+2023-12-10 19:20:45.786 [warning] [UtilityProcess type: ptyHost, pid: 847004]: unable to kill the process

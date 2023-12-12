@@ -1,0 +1,94 @@
+2023-12-10 03:05:24.849 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-10 03:05:25.139 [info] Started local extension host with pid 793031.
+2023-12-10 03:05:25.924 [error] [Extension Host] Error: 
+Something went wrong installing the "sharp" module
+
+Cannot find module '../build/Release/sharp-linux-x64.node'
+Require stack:
+- /home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/node_modules/sharp/lib/sharp.js
+- /home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/node_modules/sharp/lib/constructor.js
+- /home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/node_modules/sharp/lib/index.js
+- /home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/out/IconsView.js
+- /home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/out/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/loader.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js
+- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js
+- 
+
+Possible solutions:
+- Install with verbose logging and look for errors: "npm install --ignore-scripts=false --foreground-scripts --verbose sharp"
+- Install for the current linux-x64 runtime: "npm install --platform=linux --arch=x64 sharp"
+- Consult the installation documentation: https://sharp.pixelplumbing.com/install
+	at Object.<anonymous> (/home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/node_modules/sharp/lib/sharp.js:34:9)
+	at o._compile (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:1271)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1371:10)
+	at Module.load (node:internal/modules/cjs/loader:1171:32)
+	at Module._load (node:internal/modules/cjs/loader:1012:12)
+	at f._load (node:electron/js2c/asar_bundle:2:13377)
+	at c._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1195:19)
+	at h (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:647)
+	at Object.<anonymous> (/home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/node_modules/sharp/lib/constructor.js:8:1)
+	at o._compile (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:1271)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1371:10)
+	at Module.load (node:internal/modules/cjs/loader:1171:32)
+	at Module._load (node:internal/modules/cjs/loader:1012:12)
+	at f._load (node:electron/js2c/asar_bundle:2:13377)
+	at c._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1195:19)
+	at h (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:647)
+	at Object.<anonymous> (/home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/node_modules/sharp/lib/index.js:3:15)
+	at o._compile (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:1271)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1371:10)
+	at Module.load (node:internal/modules/cjs/loader:1171:32)
+	at Module._load (node:internal/modules/cjs/loader:1012:12)
+	at f._load (node:electron/js2c/asar_bundle:2:13377)
+	at c._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1195:19)
+	at h (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:647)
+	at Object.<anonymous> (/home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/out/IconsView.js:13:13)
+	at o._compile (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:1271)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1371:10)
+	at Module.load (node:internal/modules/cjs/loader:1171:32)
+	at Module._load (node:internal/modules/cjs/loader:1012:12)
+	at f._load (node:electron/js2c/asar_bundle:2:13377)
+	at c._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1195:19)
+	at h (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:647)
+	at Object.<anonymous> (/home/carlos/.vscode/extensions/thinker.font-awesome-4.1.0/out/extension.js:5:21)
+	at o._compile (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:1271)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1371:10)
+	at Module.load (node:internal/modules/cjs/loader:1171:32)
+	at Module._load (node:internal/modules/cjs/loader:1012:12)
+	at f._load (node:electron/js2c/asar_bundle:2:13377)
+	at c._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:5632)
+	at n._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:29551)
+	at t._load (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:133:35226)
+	at Module.require (node:internal/modules/cjs/loader:1195:19)
+	at require (node:internal/modules/cjs/helpers:110:18)
+	at Function.i [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:98)
+	at f.vb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:30730)
+	at async Promise.all (index 0)
+2023-12-10 03:05:27.903 [info] [perf] Render performance baseline is 139ms
+2023-12-10 03:08:36.897 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2023-12-10 03:08:36.897 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2023-12-10 03:11:50.105 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at q.getLineContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:730:4396)
+    at o.update (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:681:81713)
+    at P.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:744:53935)
+2023-12-10 03:11:51.795 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at q.getLineContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:730:4396)
+    at o.update (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:681:81713)
+    at P.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:744:53935)
+2023-12-10 03:12:03.791 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2023-12-10 03:12:03.791 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2023-12-10 13:14:22.486 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue
+2023-12-10 13:14:22.486 [error] [Zarifprogrammer.tailwind-snippets]: Unknown language in `contributes.tailwind-snippets.language`. Provided value: vue

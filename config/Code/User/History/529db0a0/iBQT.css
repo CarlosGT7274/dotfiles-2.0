@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+@font-face {
+  font-family: 'YourCustomFont';
+  src: url('/fonts/your-custom-font.woff2') format('woff2'),
+       url('/fonts/your-custom-font.woff') format('woff');
+  /* Agrega otras fuentes o variantes según sea necesario */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-custom {
+  font-family: 'YourCustomFont', sans-serif;
+}

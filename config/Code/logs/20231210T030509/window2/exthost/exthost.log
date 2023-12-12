@@ -1,0 +1,109 @@
+2023-12-10 03:05:25.388 [info] Extension host with pid 793031 started
+2023-12-10 03:05:25.388 [info] Skipping acquiring lock for /home/carlos/.config/Code/User/workspaceStorage/6f76ef8c2bdc93ba5224aa9548a97129.
+2023-12-10 03:05:25.428 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-10 03:05:25.430 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-12-10 03:05:25.438 [info] ExtensionService#_doActivateExtension rebornix.project-snippets, startup: true, activationEvent: '*'
+2023-12-10 03:05:25.440 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-12-10 03:05:25.503 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-10 03:05:25.522 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-10 03:05:25.702 [info] Eager extensions activated
+2023-12-10 03:05:25.708 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.710 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.715 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.718 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.723 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.744 [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.750 [info] ExtensionService#_doActivateExtension miguelsolorio.symbols, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.755 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.762 [info] ExtensionService#_doActivateExtension Thinker.font-awesome, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.883 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:25.884 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 03:05:26.070 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-10 03:05:26.089 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-10 03:05:26.117 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-10 03:07:04.416 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:javascript'
+2023-12-10 03:07:04.472 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+2023-12-10 03:07:23.047 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-12-10 03:08:15.183 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2023-12-10 03:08:28.444 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-12-10 12:37:51.515 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-12-10 12:37:51.515 [error] TypeError: Cannot read properties of null (reading 'filter')
+	at Object.provideDocumentColors (/home/carlos/.vscode/extensions/bradlc.vscode-tailwindcss-0.10.3/dist/extension.js:43:13656)
+	at async ge.provideColors (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:61153)
+2023-12-10 12:39:49.037 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-12-10 12:39:49.037 [error] TypeError: Cannot read properties of null (reading 'filter')
+	at Object.provideDocumentColors (/home/carlos/.vscode/extensions/bradlc.vscode-tailwindcss-0.10.3/dist/extension.js:43:13656)
+	at async ge.provideColors (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:61153)
+2023-12-10 12:41:07.975 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: '*'
+2023-12-10 13:14:12.737 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2023-12-10 13:14:12.739 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2023-12-10 13:14:12.741 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2023-12-10 13:14:12.742 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onTaskType:java (buildArtifact)'
+2023-12-10 13:14:12.862 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'api', root cause: vscjava.vscode-java-dependency
+2023-12-10 13:14:13.068 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-12-10 13:14:13.247 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-12-10 13:14:13.305 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-12-10 13:14:22.612 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: false, activationEvent: 'onLanguage:r'
+2023-12-10 13:14:22.776 [error] TypeError: The argument 'file' cannot be empty. Received ''
+	at new NodeError (node:internal/errors:399:5)
+	at normalizeSpawnArguments (node:child_process:561:11)
+	at Object.spawn (node:child_process:810:13)
+	at v (/home/carlos/.vscode/extensions/reditorsupport.r-2.8.2/dist/extension.js:2:1432779)
+	at t.LanguageService.spawnServer (/home/carlos/.vscode/extensions/reditorsupport.r-2.8.2/dist/extension.js:2:1329918)
+	at Server.<anonymous> (/home/carlos/.vscode/extensions/reditorsupport.r-2.8.2/dist/extension.js:2:1332202)
+	at Object.onceWrapper (node:events:627:28)
+	at Server.emit (node:events:513:28)
+	at emitListeningNT (node:net:1774:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.457 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.458 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.459 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)
+2023-12-10 16:00:53.460 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model889)

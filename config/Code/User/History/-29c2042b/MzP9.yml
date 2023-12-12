@@ -1,0 +1,16 @@
+# Configuración de ejemplo para Kitty
+
+# Colores
+background: '0,0,0'
+foreground: '255,255,255'
+cursor: '255,255,255'
+selection_foreground: '0,0,0'
+selection_background: '255,255,255'
+
+# Fuente
+font_family: 'Fira Code'
+font_size: 12
+
+# Opciones adicionales
+scrollback_lines: 10000
+bell: yes

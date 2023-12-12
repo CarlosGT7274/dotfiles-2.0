@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+@font-face {
+  font-family: 'fontawesome6';
+  src: url('/public/fonts/FontAwesome6-Free-Solid.otf') format('woff2'),
+       url('/public/fonts/FontAwesome6-Free-Solid.otf') format('woff');
+  /* Agrega otras fuentes o variantes según sea necesario */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-custom {
+  font-family: 'fontawesome6';
+}
