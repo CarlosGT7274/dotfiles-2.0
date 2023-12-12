@@ -69,7 +69,19 @@ calaca_chida() {
   printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" "${CRE}" "${CNC}"  
 }
 
+gdown --id 1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od -O fonts.zip
 
+unzip ./fonts.zip
+
+cd fonts ||  exit
+
+sudo cp * /usr/share/fonts
+
+# Actualizar la caché de fuentes
+sudo fc-cache -f -v
+
+echo "export _JAVA_AWT_WM_NONREPARENTING=1" | sudo tee -a /etc/profile
+echo "export PATH=\$PATH:\$HOME/.local/bin" | sudo tee -a /etc/profile
 
 chuerk "Installing needed packages..."
 
@@ -134,7 +146,7 @@ hitla() {
     printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" "${CRE}" "${CNC}"
 }
 
-hitla "Installing dotfiles"
+ "Installing dotfiles"
 
 [ ! -d ~/.config ] && mkdir -p ~/.config
 [ ! -d ~/.local/bin ] && mkdir -p ~/.local/bin
@@ -188,8 +200,7 @@ saulgoodman(){
   printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" "${CRE}" "${CNC}"
 }
 
-
-  saulgoodman "instaling Paru, yay, Eww, tdrop & xqp"
+ "instaling Paru, yay, Eww, tdrop & xqp"
 
 
   if command -v paru >/dev/null 2>&1; then
@@ -214,7 +225,7 @@ saulgoodman(){
       cd "$HOME" || exit
       git clone https://aur.archlinux.org/yay.git
       cd yay || exit
-      makepkg -si -noconfirm
+      makepkg -si 
     } || {
       printf "\n%s%sFailed to install yay. al rato lo instalas%s\n" "${BLD}" "${CRE}" "${CNC}" 
     }
@@ -255,6 +266,8 @@ saulgoodman(){
         printf "\n%s%sFailed to install Eww. You may need to install it manually%s\n" "${BLD}" "${CRE}" "${CNC}"
     }
 fi
+
+yay -S bluez bluez-utilz kitty 
 
 chad(){
   local text="${1:?}"
@@ -325,7 +338,8 @@ printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" 
 }
 
 
-chad "average Arch linux user btw (Changing default shell to zsh)"
+
+ "average Arch linux user btw (Changing default shell to zsh)"
 
 	if [[ $SHELL != "/usr/bin/zsh" ]]; then
 		printf "\n%s%sChanging your shell to zsh. Your root password is needed.%s\n\n" "${BLD}" "${CYE}" "${CNC}"
