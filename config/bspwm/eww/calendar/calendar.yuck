@@ -1,19 +1,16 @@
-
 (defwidget cal []
-  (box :class "cal-box"
-       :orientation "v"
-       :space-evenly false
-    (calendar :class "cal"
-              :day {formattime(EWW_TIME, "%d")}
-              :month {formattime(EWW_TIME, "%m")}
-              :year {formattime(EWW_TIME, "%Y")}
-  ))
-)
+	(box :class "calbox" :orientation "v"
+	(box :class "calinbox"
+	(calendar :class "cal" :day dat ))))
 
-;; Windows ;;
-(defwindow date
-  :geometry (geometry :x "23%"
-                      :y "8%"
-                      :anchor "center top")
-  :wm-ignore true
-(cal))
+(defpoll dat	:interval "10h"	"date '+%d'")
+
+
+(defwindow calendar
+	:geometry (geometry
+	:x "82%"
+	:y "40px"
+	:width "270px"
+	:height "60px")
+			(cal))
+

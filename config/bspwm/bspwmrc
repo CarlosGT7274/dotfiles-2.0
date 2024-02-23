@@ -2,13 +2,14 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+PATH="$HOME/.config/bspwm/scripts:$PATH"
 rice_dir="$HOME/.config/bspwm/walls/"
 
 pkill conky
 pkill polybar
 
-INTERNAL_MONITOR="DP-1"
-	EXTERNAL_MONITOR="HDMI-1"
+    INTERNAL_MONITOR=HDMI-1
+	EXTERNAL_MONITOR=DP-1
 	if [[ $(xrandr -q | grep "${EXTERNAL_MONITOR} connected") ]]; then
 		bspc monitor "$EXTERNAL_MONITOR" -d '' '' '' '' '' '' '' ''
 		bspc monitor "$INTERNAL_MONITOR" -d '' '' '' '' '' '' '' ''
@@ -16,6 +17,10 @@ INTERNAL_MONITOR="DP-1"
 	else
 		bspc monitor "$INTERNAL_MONITOR" -d '' '' '' '' '' '' '' ''
 	fi
+
+for mon in $(polybar --list-monitors | cut -d":" -f1); do
+    MONITOR=$mon polybar example -c ~/.config/polybar/config.ini &
+done
 
 bspc config external_rules_command "$HOME"/.config/bspwm/scripts/ExternalRules
 
@@ -56,6 +61,9 @@ feh --bg-fill ${rice_dir}/wp11831843-berserk-skeleton-wallpapers.jpg
 pidof -q eww || { eww -c "$HOME"/.config/bspwm/eww daemon & }
 
 sxhkd -c ~/.config/bspwm/sxhkdrc > /dev/null 2> /dev/null&
+
+pidof -q polkit-gnome-authentication-agent-1 || { /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & }
+
 polybar example -c ~/.config/polybar/config.ini &
 
 stalonetray -c "$HOME"/.config/bspwm/stalonetrayrc & sleep 0.1 && xdo hide -N stalonetray && touch "/tmp/syshide.lock"
@@ -66,3 +74,11 @@ conky -c $HOME/.config/conky/ConkyWidgets/conky-widgets &
 nm-applet &
 
 udiskie &
+
+dunst -config "$HOME"/.config/bspwm/dunstrc &
+
+xsetroot -cursor_name left_ptr
+
+xset s off
+xset -dpms
+xset s noblank

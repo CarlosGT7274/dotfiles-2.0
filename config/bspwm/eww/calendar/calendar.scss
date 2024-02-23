@@ -1,53 +1,28 @@
-.date {
-  background-color: $bg;
-  color: $fg;
-  border-radius: .5rem;
-}
+.calbox {
+  background-color: #1A1B26;
+  font-family: FiraSans;
+  font-size: 1em;
+  font-weight: bold;
 
-.cal-box {
-  font-family: Cantarell;
-  font-weight: Bold;
-  font-size: .9rem;
-  background-color: $bg;
-  border-radius: .5rem;
-  padding: 0 1rem .2rem;
-  color: $fg;
-  background-color: $bg-alt;
-  margin: .6rem .6rem .6rem .6rem;
+  .calinbox {
+      padding: 1rem 1rem .2rem;
 
-  .cal {
-    background-color: inherit;
-    padding: .5rem .15rem .2rem;
-    margin-left: 10px;
+      .cal {
+          &.highlight {
+              padding: 10rem;
+          }
 
-    & > * {
-      border: solid 0px transparent;
-    }
-    
-    &.highlight {
-      padding: 10rem;
-    }
+          padding: .8rem .25rem 0rem;
+          margin-left: 10px;
+      }
   }
 }
 
-calendar:selected {
-  color: $magenta;
-}
-
 calendar.header {
-  color: $magenta;
-  font-weight: bold;
+color: #7DCFFF;
+font-weight: bold;
 }
 
-calendar.button {
-  color: $fg;
-}
-
-calendar.highlight {
-  color: $green;
-  font-weight: bold;
-}
-
-calendar:indeterminate {
-  color: $lightblack;
+calendar.button, .highlight  {
+color: #C0CAF5;
 }

@@ -1,0 +1,77 @@
+configuration {
+    display-drun:                   "";
+    show-icons:true;
+    icon-theme:                     "Fluent";
+    modi: "combi,run";
+    combi-modi: "window,drun";
+	kb-row-up: "Up,k,Shift+Tab,Shift+ISO_Left_Tab";
+	kb-row-down: "Down,j";
+	kb-accept-entry: "Return,KP_Enter";
+}
+
+@theme "material_dark"
+ 
+* {
+    lines: 10;
+    columns: 1;
+}
+ 
+#window {
+    border: 0;
+    border-radius: 8px;
+    padding: 10;
+    width: 82%;
+    height: 84%;
+}
+ 
+#mainbox {
+    background-color: #00000000;
+    children: [inputbar, listview];
+    padding: 7px 0;
+    border: 0px;
+}
+ 
+#listview {
+    border: 0px;
+    scrollbar: false;
+    padding: 10px 10px 0px;
+    background-color: #00000000;
+}
+ 
+#element {
+    border: 0;
+    border-radius: 15px;
+	background-color: #00000000;
+}
+
+#element-icon {
+    size: 			    5ch;
+    background-color:		    #00000000; 
+    padding: 3 0  3 4 ;
+}
+
+#element-text {
+	background-color: #00000000;
+	margin: 20;
+}
+
+#inputbar {
+	enabled: true;
+    children:   [ prompt,textbox-prompt-colon,entry ];
+    background-color: #00000000;
+	padding: 0px 10px;
+}
+ 
+#entry {
+    spacing:    0;
+}
+
+#prompt {
+    spacing:    0;
+}
+ 
+#textbox-prompt-colon {
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
+}

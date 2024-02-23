@@ -1,0 +1,70 @@
+/*-*- mode: css; -*-*/
+
+* {
+  color0:		#16101d;
+  color1:		#B48E76;
+  color2:		#0E518B;
+  color3:		#1E6D9F;
+  color4:		#4B7692;
+  color5:		#AC6D8C;
+  color6:		#3E83AC;
+  color7:		#a5c2d1;
+  color8:		#738792;
+  color9:		#B48E76;
+  color10:	#0E518B;
+  color11:	#1E6D9F;
+  color12:	#4B7692;
+  color13:	#AC6D8C;
+  color14:	#3E83AC;
+  color15:	#a5c2d1;
+  active:		#895770;
+  inactive:	#5e3c4d;
+
+  roundness:            5px;
+  radius:               10px;
+
+  background:						@color0;
+  foreground:						@color15;
+
+  background-color:		  @background;
+  border-color:					@background;
+  separatorcolor:			  @color8;
+  scrollbar-handle:			@color9;
+
+  normal-background:	    			@background;
+  normal-foreground:		    		@foreground;
+  alternate-normal-background:	@background;
+  alternate-normal-foreground:	@foreground;
+  selected-normal-background:		@active;
+  selected-normal-foreground:		@foreground;
+
+  active-background:				    @inactive;
+  active-foreground:				    @foreground;
+  alternate-active-background:	@active;
+  alternate-active-foreground:	@foreground;
+  selected-active-background:		@active;
+  selected-active-foreground:		@foreground;
+
+  urgent-background:				    @color8;
+  urgent-foreground:				    @color15;
+  alternate-urgent-background:	@color8;
+  alternate-urgent-foreground:	@color15;
+  selected-urgent-background:		@color14;
+  selected-urgent-foreground:		@foreground;
+
+  /* theme-based-custom */ 
+
+  al:   #16101d00;
+  bg:   #16101dBF;
+  bga:  #16101dFF;
+  fg:   #a5c2d1FF;
+  ac:   #B48E76;
+  se:   #AC6D8C1A;
+  dbg:  #16101d02;
+
+}
+
+configuration {
+	font:							    "JetBrainsMono Nerd Font 12";
+  icon-theme:           "la-capitaine";
+}
