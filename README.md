@@ -25,7 +25,9 @@ alfin hice mi propia configuracion y no la tube que robar jajaja
    cd dotfiles-2.0
    ```
 
-3. Otorga permisos de ejecución al script `Ricing.sh`, si es necesario:
+3. mueve los archivos manualmente e ignora los scripts, no sirven por ahora.
+
+<!-- 3. Otorga permisos de ejecución al script `Ricing.sh`, si es necesario:
 
    ```bash
    chmod +x Ricing.sh
@@ -39,10 +41,9 @@ alfin hice mi propia configuracion y no la tube que robar jajaja
    ./Ricing.sh
    ```
 
-este es un script automatizado para su instalación. 
+este es un script automatizado para su instalación.  -->
 
 ## Descargar las Fuentes
-
 Puedes descargar las fuentes que estoy utilizando desde el siguiente enlace: [Google Drive](https://drive.google.com/file/d/1iY-QRbeUYScCCw21bbM2lkzmiD6Y82od/view?usp=sharing)
 
 ## Captura de Pantalla
